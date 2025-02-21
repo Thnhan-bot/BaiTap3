@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Thanh tiêu đề -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#8000FF"
+        android:text="My Application"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <!-- Bố cục chính -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <!-- Cột 1 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#00FFFF"
+                android:text="01"
+                android:textSize="24sp"
+                android:textColor="#FF4500"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#3CB371"
+                android:text="02"
+                android:textSize="24sp"
+                android:textColor="#FF4500"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Cột 2 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#FF00FF"
+                android:text="03"
+                android:textSize="24sp"
+                android:textColor="#FF4500"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#3CB371"
+                android:text="04"
+                android:textSize="24sp"
+                android:textColor="#FF4500"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1E3A5F"
+                android:text="05"
+                android:textSize="24sp"
+                android:textColor="#FF4500"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Cột 3 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Ô màu đỏ -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:background="#FF0000"
+                android:text="06"
+                android:textSize="32sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center" />
+
+            <!-- Ô màu xanh dương -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#00BFFF"
+                android:text="06"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Cột 4 (Màu vàng) -->
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:background="#FFFF00"
+            android:text="07"
+            android:textSize="25sp"
+            android:textColor="#FF4500"
+            android:gravity="top|center" />
+    </LinearLayout>
+
+</LinearLayout>
